@@ -28,6 +28,7 @@ public class ChatController {
      */
 
     /* @Payload => If the message body is JSON, Spring converts it to a ChatMessage object*/
+
     @MessageMapping("/chat.sendMessage")
     @SendTo("/topic/public")
     public ChatMessage sendMessage(@Payload ChatMessage chatMessage){
