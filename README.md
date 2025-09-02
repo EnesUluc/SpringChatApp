@@ -1,3 +1,11 @@
+## System Requirements
+
+- Docker Desktop (Windows/Mac) or Docker Engine (Linux)
+- Docker version >= 20.10
+- Docker Compose >= 1.29
+- At least 2 GB RAM allocated to Docker
+- A modern web browser (Chrome, Firefox, Edge)
+
 Chat App
 🚀 How to Run the Application
 1️⃣ Build the Docker Image
